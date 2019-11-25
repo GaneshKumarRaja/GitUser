@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">GitUser</string>
+    <string name="blog">Blog: </string>
+    <string name="git">Git: </string>
+    <string name="generate">Generate</string>
+    <string name="search">Search</string>
+</resources>

@@ -1,0 +1,49 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="base_txt_style" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:layout_marginTop">@dimen/margin</item>
+        <item name="android:layout_marginBottom">@dimen/margin</item>
+    </style>
+
+    <style name="base_btn" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:background">@color/colorAccent</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+
+    <style name="base_edtxt" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:textStyle">bold</item>
+        <item name="android:imeOptions">actionDone</item>
+        <item name="android:inputType">text</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:padding">14sp</item>
+        <item name="android:background">@drawable/edit_text_drawable</item>
+        <item name="android:textColor">@color/light_gray</item>
+    </style>
+
+    <style name="link_txt_style" parent="base_txt_style">
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+
+    <style name="label_txt_style" parent="base_txt_style">
+        <item name="android:textColor">@color/gray</item>
+    </style>
+
+    <style name="constrain_style" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:padding">20dp</item>
+    </style>
+
+</resources>
